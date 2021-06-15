@@ -2,6 +2,11 @@
 
 /* Body */
 
+@font-face {
+  font-family: bree-serif;
+  src: fonts/BreeSerif-Regular.ttf;
+}
+
 #body {
     margin:0;
     padding:0;
