@@ -9,6 +9,10 @@
                                           Mikael K-L's personal website that
                                           shows some of my best coding 
                                           projects and more ">
+        <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+        Header set Cache-Control "max-age=31536000, public"
+        </filesMatch>
+
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
         <title>Mikael Kildal-Leblond</title>
